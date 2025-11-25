@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "7570e83a5be4d706",
+    "type": "split",
+    "children": [
+      {
+        "id": "f738e58c3a864674",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "764c5c1a2bd32ed2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Core Skills/00 Courses/01 - Understanding Cloud Computing/Understanding Cloud Computing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Understanding Cloud Computing"
+            }
+          },
+          {
+            "id": "044ab6460457ed2a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a5a6ce1f909d5a33",
+    "type": "split",
+    "children": [
+      {
+        "id": "b66b2fe5d5c26a92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c12ed4217f647439",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2a607bd4145b2dbe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0c46694283fb23c3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "3d7aa00e1d25033a",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b2707796fae5a41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4bdb9354639ad45c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01 Core Skills/00 Courses/01 - Understanding Cloud Computing/Understanding Cloud Computing.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Understanding Cloud Computing"
+            }
+          },
+          {
+            "id": "bd8973243b83c8fe",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01 Core Skills/00 Courses/01 - Understanding Cloud Computing/Understanding Cloud Computing.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Understanding Cloud Computing"
+            }
+          },
+          {
+            "id": "73d389c0fc918494",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "14e212d4c0c7c56d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "1041f07244fca852",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01 Core Skills/00 Courses/01 - Understanding Cloud Computing/Understanding Cloud Computing.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Understanding Cloud Computing"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "764c5c1a2bd32ed2",
+  "lastOpenFiles": [
+    "01 Core Skills/00 Courses/01 - Understanding Cloud Computing/Understanding Cloud Computing.md",
+    "01 Core Skills/Cloud - What is Cloud Computing.md",
+    "01 Core Skills/Cloud - Virtualization.md",
+    "01 Core Skills/Cloud - Vertical vs Horizontal Scaling.md",
+    "01 Core Skills/Cloud - Storage Services.md",
+    "01 Core Skills/Cloud - Speed and Performance.md",
+    "01 Core Skills/Cloud - Software as a Service (SaaS).md",
+    "01 Core Skills/Cloud - Security.md",
+    "01 Core Skills/Cloud - Security Engineer Role.md",
+    "01 Core Skills/Cloud - Scalability.md",
+    "01 Core Skills/Cloud - Reliability.md",
+    "01 Core Skills/Cloud - Public Cloud.md",
+    "01 Core Skills/Cloud - Provider Selection Criteria.md",
+    "01 Core Skills/Cloud - Provider Market Share.md",
+    "01 Core Skills/Cloud - Provider Certifications.md",
+    "01 Core Skills/Cloud - Private Cloud.md",
+    "01 Core Skills/Cloud - Private Cloud vs On-Premise Infrastructure.md",
+    "01 Core Skills/Cloud - Platform as a Service (PaaS).md",
+    "01 Core Skills/Cloud - Personal Data (PII).md",
+    "01 Core Skills/Cloud - Pay-as-You-Go Pricing.md",
+    "01 Core Skills/Cloud - Pay-As-You-Go Pricing Model.md",
+    "01 Core Skills/Cloud - On-Premise vs Cloud Hosting.md",
+    "01 Core Skills/Cloud - On-Premise Servers.md",
+    "01 Core Skills/Cloud - Multicloud.md",
+    "01 Core Skills/Cloud - Major Cloud Providers.md",
+    "01 Core Skills/Cloud - Machine Learning Scientist Cloud Usage.md",
+    "01 Core Skills/00 Courses/01 - Understanding Cloud Computing",
+    "01 Core Skills/00 Courses",
+    "Untitled",
+    "01 Core Skills"
+  ]
+}
