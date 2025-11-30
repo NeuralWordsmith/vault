@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled/Dolly.md",
+                "file": "Untitled/10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dolly"
+              "title": "10"
             }
           }
         ]
@@ -185,6 +185,8 @@
   },
   "active": "044ab6460457ed2a",
   "lastOpenFiles": [
+    "Untitled/Dolly.md",
+    "Untitled/10.md",
     "Course one/Understanding Cloud Computing.md",
     "Course one/Example - The Ottawa Hospital Azure Implementation.md",
     "Course one/Example - NerdWallet AWS SageMaker Implementation.md",
@@ -209,8 +211,6 @@
     "Course one/Cloud - Personal Health Information Protection Act (PHIPA).md",
     "Course one/Cloud - Personal Data (PII).md",
     "Course one/Cloud - Pay-as-You-Go Pricing.md",
-    "Course one/Cloud - Pay-As-You-Go Pricing Model.md",
-    "Course one/Cloud - On-Premise vs Cloud Hosting.md",
     "Course one",
     "Untitled",
     "01 Core Skills/00 Courses/01 - Understanding Cloud Computing",
