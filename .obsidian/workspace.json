@@ -11,10 +11,14 @@
             "id": "044ab6460457ed2a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Untitled/Dolly.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dolly"
             }
           }
         ]
@@ -179,8 +183,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "c12ed4217f647439",
+  "active": "044ab6460457ed2a",
   "lastOpenFiles": [
+    "Untitled/Dolly.md",
+    "Untitled",
     "dolly.md",
     "01 Core Skills/00 Courses/01 - Understanding Cloud Computing/Understanding Cloud Computing.md",
     "01 Core Skills/Cloud - What is Cloud Computing.md",
@@ -206,10 +212,8 @@
     "01 Core Skills/Cloud - On-Premise vs Cloud Hosting.md",
     "01 Core Skills/Cloud - On-Premise Servers.md",
     "01 Core Skills/Cloud - Multicloud.md",
-    "01 Core Skills/Cloud - Major Cloud Providers.md",
     "01 Core Skills/00 Courses/01 - Understanding Cloud Computing",
     "01 Core Skills/00 Courses",
-    "Untitled",
     "01 Core Skills"
   ]
 }
