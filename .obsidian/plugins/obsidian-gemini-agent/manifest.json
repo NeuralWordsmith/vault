@@ -1,0 +1,11 @@
+{
+	"id": "gemini-agent",
+	"name": "Rehoboam",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Leverage Google Gemini to deeply review, plan, and generate atomic notes and update your Maps of Content (MOCs).",
+	"author": "Your Name Here",
+	"authorUrl": "https://yourwebsite.com",
+	"fundingUrl": "",
+	"isDesktopOnly": false
+}

@@ -1,0 +1,359 @@
+/* Calendar Grid Container */
+.daily-notes-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+    gap: 5px;
+    justify-items: center;
+    margin-top: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Calendar Box Style */
+.daily-notes-card-box {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    line-height: 1.7; /* Fine-tune line height if needed */
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    background-color: transparent;
+    border: 0.5px solid #444;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: all 0.1s ease-in-out;
+}
+
+/* Filled Calendar Box */
+.daily-notes-card-box-filled {
+    background-color: #444;
+    color: white;
+    border-color: #888;
+}
+
+/* Highlight for Today's Date */
+.daily-notes-card-today {
+    border: 2px solid #ff9800 !important;
+    box-shadow: 0px 0px 8px #ff9800;
+    background-color: #111; /* Black look */
+    z-index: 1;
+}
+
+/* Combined: Filled + Today */
+.daily-notes-card-box-filled.daily-notes-card-today {
+    background-color: #444; /* Filled background */
+    border: 2px solid #ff9800 !important; /* Orange border */
+    box-shadow: 0px 0px 8px #ff9800; /* Glow */
+}
+
+/* Hover Effects */
+.daily-notes-card-box:hover {
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.daily-notes-card-box-filled:hover {
+    background-color: #45A049;
+    border-color: #45A049;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Weekly Notes Container - Dynamic Columns */
+.weekly-notes-card {
+    display: grid; /* Ensure grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); /* Flexible columns */
+    gap: 10px; /* Add space between items */
+    justify-items: center; /* Center-align items */
+    margin-top: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.1); /* Light gray */
+}
+
+/* Weekly Box Style */
+.weekly-notes-card-box {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 70px; /* Adjust box width */
+    height: 70px; /* Adjust box height */
+    line-height: 2.31; /* Fine-tune line height if needed */
+    font-size: 30px; /* Adjust font size */
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    background-color: transparent;
+    border: 0.5px solid #444; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    box-sizing: border-box;
+    padding: center; /* Add inner space */
+    transition: all 0.1s ease-in-out; /* Smooth scaling */
+}
+
+/* Filled Weekly Box */
+.weekly-notes-card-box-filled {
+    background-color: #444; /* Dark background */
+    color: white; /* White text */
+    border-radius: 8px;
+    border-color: #888;
+}
+
+/* Highlight Current Week */
+.weekly-notes-card-today {
+    border: 2px solid #ff9800 !important; /* Orange border */
+    box-shadow: 0px 0px 8px #ff9800; /* Glow effect */
+    background-color: #111; /* Black look */
+    z-index: 1;
+}
+
+/* Combined: Filled + Today */
+.weekly-notes-card-box-filled.weekly-notes-card-today {
+    background-color: #444; /* Filled background */
+    border: 2px solid #ff9800 !important; /* Orange border */
+    box-shadow: 0px 0px 8px #ff9800; /* Glow effect */
+}
+
+/* Hover Effect for Empty Boxes */
+.weekly-notes-card-box:hover {
+    border: 1px solid #fff; /* Highlight border in white */
+    background-color: rgba(255, 255, 255, 0.1); /* Light white tint */
+    cursor: pointer; /* Show pointer cursor */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: all 0.2s ease-in-out;
+}
+
+/* Hover Effect for Filled Boxes */
+.weekly-notes-card-box-filled:hover {
+    background-color: #45A049; /* Slightly darker green */
+    border-color: #45A049; /* Match the border with background */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3); /* Add subtle shadow */
+    transition: all 0.2s ease-in-out;
+}
+
+
+/* Monthly Notes Container - Dynamic Columns */
+.monthly-notes-card {
+    display: grid; /* Ensure grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); /* Flexible columns */
+    gap: 10px; /* Add space between items */
+    justify-items: center; /* Center-align items */
+    margin-top: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.1); /* Light gray */
+}
+
+/* Monthly Box Style */
+.monthly-notes-card-box {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 70px; /* Adjust box width */
+    height: 70px; /* Adjust box height */
+    line-height: 1.8; /* Fine-tune line height if needed */
+    font-size: 30px; /* Adjust font size */
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    background-color: transparent;
+    border: 0.5px solid #444; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    box-sizing: border-box;
+    padding: 5px; /* Add inner space */
+    transition: all 0.1s ease-in-out; /* Smooth scaling */
+}
+
+/* Filled Monthly Box */
+.monthly-notes-card-box-filled {
+    background-color: #444; /* Dark background */
+    color: white; /* White text */
+    border-radius: 8px;
+    border-color: #888;
+}
+
+/* Highlight Current Month */
+.monthly-notes-card-today {
+    border: 2px solid #ff9800 !important; /* Orange border for the current month */
+    box-shadow: 0px 0px 8px #ff9800; /* Glowy effect */
+    background-color: #111; /* Black look */
+    z-index: 1;
+}
+
+/* Combined: Filled + Today */
+.monthly-notes-card-box-filled.monthly-notes-card-today {
+    background-color: #444; /* Dark filled background */
+    border: 2px solid #ff9800 !important; /* Orange border */
+    box-shadow: 0px 0px 8px #ff9800; /* Glowy effect */
+}
+
+/* Hover Effect for Empty Boxes */
+.monthly-notes-card-box:hover {
+    border: 1px solid #fff; /* Highlight border in white */
+    background-color: rgba(255, 255, 255, 0.1); /* Light white tint */
+    cursor: pointer; /* Show pointer cursor */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: all 0.2s ease-in-out;
+}
+
+/* Hover Effect for Filled Boxes */
+.monthly-notes-card-box-filled:hover {
+    background-color: #45A049; /* Slightly darker green */
+    border-color: #45A049; /* Match the border with background */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3); /* Add subtle shadow */
+    transition: all 0.2s ease-in-out;
+}
+
+
+/* Quarterly Notes Container - Dynamic Columns */
+.quarterly-notes-card {
+    display: grid; /* Ensure grid layout */
+    grid-template-columns: repeat(4, 1fr); /* Fixed 4 columns for Q1-Q4 */
+    gap: 10px; /* Add space between items */
+    justify-items: center; /* Center-align items */
+    margin-top: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.1); /* Light gray */
+}
+
+/* Quarterly Box Style */
+.quarterly-notes-card-box {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 100px; /* Adjust box width */
+    height: 100px; /* Adjust box height */
+    line-height: 2.45; /* Fine-tune line height if needed */
+    font-size: 35px; /* Adjust font size */
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    background-color: transparent;
+    border: 0.5px solid #444; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    box-sizing: border-box;
+    padding: 5px; /* Add inner space */
+    transition: all 0.1s ease-in-out; /* Smooth scaling */
+}
+
+/* Filled Quarterly Box */
+.quarterly-notes-card-box-filled {
+    background-color: #444; /* Dark background */
+    color: white; /* White text */
+    border-color: #888;
+}
+
+/* Highlight Current Quarter */
+.quarterly-notes-card-today {
+    border: 2px solid #ff9800 !important; /* Orange border */
+    box-shadow: 0px 0px 8px #ff9800; /* Glowy effect */
+    background-color: #111; /* Black look */
+    z-index: 1;
+}
+
+/* Combined: Filled + Today */
+.quarterly-notes-card-box-filled.quarterly-notes-card-today {
+    background-color: #444; /* Dark filled background */
+    border: 2px solid #ff9800 !important; /* Orange border */
+    box-shadow: 0px 0px 8px #ff9800; /* Glowy effect */
+}
+
+/* Hover Effect for Empty Boxes */
+.quarterly-notes-card-box:hover {
+    border: 1px solid #fff; /* Highlight border in white */
+    background-color: rgba(255, 255, 255, 0.1); /* Light white tint */
+    cursor: pointer; /* Show pointer cursor */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: all 0.2s ease-in-out;
+}
+
+/* Hover Effect for Filled Boxes */
+.quarterly-notes-card-box-filled:hover {
+    background-color: #45A049; /* Slightly darker green */
+    border-color: #45A049; /* Match the border with background */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3); /* Add subtle shadow */
+    transition: all 0.2s ease-in-out;
+}
+
+/* Yearly Notes Container */
+.yearly-notes-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Yearly Box Style */
+.yearly-notes-card-box {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 300px;
+    line-height: 5; /* Fine-tune line height if needed */
+    font-size: 55px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #444;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    transition: all 0.1s ease-in-out;
+}
+
+/* Filled Yearly Box */
+.yearly-notes-card-box-filled {
+    background-color: #444;
+    color: white;
+    border-color: #888;
+}
+
+/* Hover Effect for Empty Box */
+.yearly-notes-card-box:hover {
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+/* Hover Effect for Filled Box */
+.yearly-notes-card-box-filled:hover {
+    background-color: #45A049;
+    border-color: #45A049;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+}
+
+/* Highlight Current Year */
+.yearly-notes-card-today {
+    border: 2px solid #ffa500;
+    box-shadow: 0px 0px 8px #ff9800;
+    background-color: #111; /* Black look */
+}
+
+
+.live-clock {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #ddd;
+    margin-top: 5px;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.base-card-header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+}

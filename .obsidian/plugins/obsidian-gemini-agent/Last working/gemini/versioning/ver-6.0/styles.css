@@ -1,0 +1,107 @@
+/* --- Main Chat Container --- */
+.gemini-agent-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.gemini-agent-header {
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.gemini-agent-messages {
+    flex-grow: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+}
+
+/* --- General Message Bubble Style --- */
+.gemini-agent-message {
+    padding: 12px 18px;
+    border-radius: 20px;
+    max-width: 85%;
+    line-height: 1.5;
+}
+
+/* --- Model (Gemini Agent) Specifics --- */
+.gemini-agent-message.model {
+    background-color: rgba(var(--interactive-accent-rgb), 0.6);
+    color: var(--text-on-accent);
+    align-self: flex-start;
+}
+
+/* --- User Specifics --- */
+.gemini-agent-message.user {
+    background: var(--background-secondary-alt);
+    align-self: flex-end;
+}
+
+/* --- Reduce Gaps in Markdown Render (V3 - Corrected Selector) --- */
+.gemini-agent-message.model p,
+.gemini-agent-message.model ul,
+.gemini-agent-message.model ol {
+    margin-block-start: 0.5em !important;
+    margin-block-end: 0.5em !important;
+}
+.gemini-agent-message.model > *:first-child {
+    margin-block-start: 0 !important;
+}
+.gemini-agent-message.model > *:last-child {
+    margin-block-end: 0 !important;
+}
+
+
+/* --- Polished Input Area --- */
+.gemini-agent-input-container {
+    padding: 10px;
+    border-top: 1px solid var(--background-modifier-border);
+}
+
+.gemini-agent-input {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 20px;
+    border: 1px solid var(--background-modifier-border);
+    background-color: var(--background-secondary);
+}
+
+/* --- Keyframe Animation for the Glow --- */
+@keyframes glow {
+  0% { box-shadow: 0 0 5px rgba(var(--interactive-accent-rgb), 0.4); }
+  50% { box-shadow: 0 0 15px 3px rgba(var(--interactive-accent-rgb), 0.7); }
+  100% { box-shadow: 0 0 5px rgba(var(--interactive-accent-rgb), 0.4); }
+}
+
+/* --- Apply the Glow on Focus --- */
+.gemini-agent-input:focus {
+  animation: glow 2s ease-in-out infinite;
+  border-color: var(--interactive-accent);
+  outline: none;
+}
+
+
+/* --- Mode Toggle Button --- */
+.gemini-agent-input-container {
+    display: flex; /* This is needed to align the button and input */
+    align-items: center;
+    gap: 8px;
+}
+
+.gemini-agent-mode-toggle {
+    background: none;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 6px 8px;
+    line-height: 1;
+}
+
+.gemini-agent-mode-toggle:hover {
+    background-color: var(--background-modifier-hover);
+}

@@ -11,14 +11,17 @@
             "id": "044ab6460457ed2a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Untitled/10.md",
-                "mode": "source",
-                "source": false
+                "file": "Begin Here.canvas",
+                "viewState": {
+                  "x": 474.6078934526886,
+                  "y": 696.076472359451,
+                  "zoom": -0.6000000000000001
+                }
               },
-              "icon": "lucide-file",
-              "title": "10"
+              "icon": "lucide-layout-dashboard",
+              "title": "Begin Here"
             }
           }
         ]
@@ -174,6 +177,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "gemini-agent:Open Rehoboam Agent": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -183,34 +187,36 @@
       "bases:Create new base": false
     }
   },
-  "active": "044ab6460457ed2a",
+  "active": "c12ed4217f647439",
   "lastOpenFiles": [
-    "Untitled/Dolly.md",
-    "Untitled/10.md",
+    "01 Core Skills/Shell - Renaming via Move.md",
+    "01 Core Skills/Shell - less Command.md",
+    "01 Core Skills/Shell - Filesystem Hierarchy.md",
+    "01 Core Skills/Shell - cut Command.md",
+    "01 Core Skills/Shell - Command Flags.md",
+    "01 Core Skills/Shell - File & Content Inspection.md",
+    "00 Absorption/Shell - File & Content Inspection - Absorption.md",
+    "00 Courses/02 - Introduction to Shell/Introduction to shell.md",
+    "00 Absorption/Shell - cat Command - Absorption.md",
+    "00 Absorption/Shell - Command Flags - Absorption.md",
+    "00 Absorption/Shell - File Inspection & Manipulation Cheatsheet - Absorption.md",
+    "00 Absorption/Shell - cut & paste Relationship - Absorption.md",
+    "00 Absorption/Shell - head vs cut - Absorption.md",
+    "00 Absorption/Shell - paste Command - Absorption.md",
+    "00 Absorption/Shell - grep Command - Absorption.md",
+    "00 Absorption/Shell - man Command - Absorption.md",
+    "00 Absorption/Shell - Command History - Absorption.md",
+    "00 Absorption/Shell - Tab Completion - Absorption.md",
+    "00 Absorption/Shell - Productivity Tools - Absorption.md",
+    "00 Absorption/Shell - cut Command - Absorption.md",
+    "00 Absorption/Shell - Data Manipulation - Absorption.md",
+    "00 Absorption/Shell - head Command - Absorption.md",
+    "00 Absorption/Shell - less Command - Absorption.md",
+    "00 Absorption",
+    "Begin Here.canvas",
     "Course one/Understanding Cloud Computing.md",
-    "Course one/Example - The Ottawa Hospital Azure Implementation.md",
-    "Course one/Example - NerdWallet AWS SageMaker Implementation.md",
-    "Course one/Example - Lush Migration to GCP.md",
-    "Course one/Cloud - What is Cloud Computing.md",
-    "Course one/Cloud - Virtualization.md",
-    "Course one/Cloud - Vertical vs Horizontal Scaling.md",
-    "Course one/Cloud - Storage Services.md",
-    "Course one/Cloud - Speed and Performance.md",
-    "Course one/Cloud - Software as a Service (SaaS).md",
-    "Course one/Cloud - Security.md",
-    "Course one/Cloud - Security Engineer Role.md",
-    "Course one/Cloud - Scalability.md",
-    "Course one/Cloud - Reliability.md",
-    "Course one/Cloud - Public Cloud.md",
-    "Course one/Cloud - Provider Selection Criteria.md",
-    "Course one/Cloud - Provider Market Share.md",
-    "Course one/Cloud - Provider Certifications.md",
-    "Course one/Cloud - Private Cloud.md",
-    "Course one/Cloud - Private Cloud vs On-Premise Infrastructure.md",
-    "Course one/Cloud - Platform as a Service (PaaS).md",
-    "Course one/Cloud - Personal Health Information Protection Act (PHIPA).md",
-    "Course one/Cloud - Personal Data (PII).md",
-    "Course one/Cloud - Pay-as-You-Go Pricing.md",
+    "Untitled/10.md",
+    "Untitled/Dolly.md",
     "Course one",
     "Untitled",
     "01 Core Skills/00 Courses/01 - Understanding Cloud Computing",

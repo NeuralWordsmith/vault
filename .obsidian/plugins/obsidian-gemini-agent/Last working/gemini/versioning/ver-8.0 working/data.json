@@ -1,0 +1,8 @@
+{
+  "geminiApiKey": "AIzaSyD2HZnicjtkXd2r7f_kUwWo-w3NZIuXx50",
+  "model": "gemini-2.5-pro",
+  "draftsFolderPath": "Gemini Drafts",
+  "plansFolderPath": "Gemini Drafts/Plans",
+  "templatesFolderPath": "00 Inbox/00 Templates",
+  "mocHeaderLevel": 3
+}
