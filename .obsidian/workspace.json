@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3d7aa00e1d25033a",
@@ -159,16 +160,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Core Skills/00 Courses/01 - Understanding Cloud Computing/Understanding Cloud Computing.md",
+                "file": "Begin Here.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Understanding Cloud Computing"
+              "title": "Outline of Begin Here"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -187,8 +189,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "c12ed4217f647439",
+  "active": "044ab6460457ed2a",
   "lastOpenFiles": [
+    "Begin Here.canvas",
     "01 Core Skills/Shell - Renaming via Move.md",
     "01 Core Skills/Shell - less Command.md",
     "01 Core Skills/Shell - Filesystem Hierarchy.md",
@@ -213,10 +216,8 @@
     "00 Absorption/Shell - head Command - Absorption.md",
     "00 Absorption/Shell - less Command - Absorption.md",
     "00 Absorption",
-    "Begin Here.canvas",
     "Course one/Understanding Cloud Computing.md",
     "Untitled/10.md",
-    "Untitled/Dolly.md",
     "Course one",
     "Untitled",
     "01 Core Skills/00 Courses/01 - Understanding Cloud Computing",

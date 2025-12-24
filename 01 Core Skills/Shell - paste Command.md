@@ -110,8 +110,6 @@ paste -d ',' names.txt ages.txt
 # Charlie,35
 ```
 
- [[Code - paste Command Implementation|View Full Implementation & Analysis]]
-
 #### Key Parameters
 
 - **Input Files `[file1] [file2] ...`**
@@ -149,10 +147,6 @@ Shell - cut     │ paste Command  │         Shell - cat
 ### Parent Concept
 
 The `paste` command is a fundamental tool for [[Shell - Data Manipulation|data manipulation]], focusing specifically on the task of combining data sources.
-
-### Child Concepts
-
-
 
 ### Related Concepts 
 

@@ -74,7 +74,6 @@ To minimize user typing and prevent errors by automatically completing commands,
 
 ##### Code Translation
 
-```python
 ```bash
 # Assume a directory contains: project_alpha.txt, project_beta.csv, report.pdf
 
@@ -98,9 +97,6 @@ project_alpha.txt   project_beta.csv
 # Shell auto-completes the command to:
 $ ls project_alpha.txt
 ```
-```
-
- [[Code - Tab Completion Implementation|View Full Implementation & Analysis]]
 
 #### Key Parameters
 
@@ -138,10 +134,6 @@ $ ls project_alpha.txt
 ### Parent Concept
 
 This feature is a core component of the broader category of [[Shell - Productivity Tools]], which aim to make command-line usage more efficient.
-
-### Child Concepts
-
-
 
 ### Related Concepts 
 

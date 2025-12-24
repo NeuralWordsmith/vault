@@ -44,7 +44,7 @@ _Analogy:_ _Using the `man` command is like consulting the detailed owner's manu
            │
            │ 2. System opens manual page
            ▼
-    ┌──────────────────────────────┐
+    ┌──────────────────────────────────┐
     │ HEAD(1)   User Commands  HEAD(1) │
     │                                  │
     │ NAME                             │
@@ -57,7 +57,7 @@ _Analogy:_ _Using the `man` command is like consulting the detailed owner's manu
     │ ... (scrollable content) ...     │
     │                                  │
     │ Press 'q' to quit                │
-    └──────────────────────────────┘
+    └──────────────────────────────────┘
 ```
 
 ## Details
@@ -70,7 +70,6 @@ To provide users with comprehensive, standardized, and offline documentation for
 
 #### Mechanism
 
-
 - **Step 1: Invoke the Manual**
     - Type `man` followed by a space and the name of the command you want to learn about.
 - **Step 2: Navigate the Content**
@@ -82,7 +81,6 @@ To provide users with comprehensive, standardized, and offline documentation for
 
 ##### Code Translation
 
-```python
 ```bash
 # --- Step 1: Open the manual for the 'head' command ---
 man head
@@ -91,9 +89,6 @@ man head
 # Use arrow keys to scroll up and down.
 # Press 'q' to quit and return to the command line.
 ```
-```
-
- [[Code - man Command Implementation|View Full Implementation & Analysis]]
 
 #### Key Parameters
 
@@ -130,11 +125,6 @@ less Command      │   man Command  │         head Command
 ### Parent Concept
 
 The `man` command is a core component of the [[Shell - Productivity Tools|shell productivity tools]] that enable efficient work within the command line.
-
-### Child Concepts
-
-
-
 ### Related Concepts 
 
 - The `man` command's interface is actually an instance of the [[Shell - less Command|less command]], which provides the ability to scroll and search the documentation.

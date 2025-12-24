@@ -73,7 +73,6 @@ To save time and reduce errors by making it easy to find, edit, and re-execute p
 
 ##### Code Translation
 
-```python
 ```bash
 # --- Step 1: View the History --- 
 # Run the history command to see a numbered list of recent commands.
@@ -93,9 +92,6 @@ history
 # To re-execute the most recent 'grep' command, use the string.
 !grep
 ```
-```
-
- [[Code - Shell - Command History Implementation|View Full Implementation & Analysis]]
 
 #### Key Parameters
 
@@ -117,25 +113,20 @@ history
 ## Connections
 
 ```
-            (Parent)
-     Shell - Productivity Tools
-                 ▲
-                 │
-┌────────────────┼────────────────┐
-│                │                │
-(Related)  ┌───────────────────┐  (Related)
+		            (Parent)
+		     Shell - Productivity Tools
+		                 ▲
+		                 │
+		┌────────────────┼───────────────┐
+		│                │               │
+(Related)      ┌───────────────────┐  (Related)
 Tab Completion │  Command History  │  head Command
-           └───────────────────┘
+               └───────────────────┘
 ```
 
 ### Parent Concept
 
 Command history is a core feature that falls under the umbrella of [[Shell - Productivity Tools|shell productivity tools]], which are designed to make working in the command line faster and more efficient.
-
-### Child Concepts
-
-
-
 ### Related Concepts 
 
 - It complements other efficiency features like [[Shell - Tab Completion|tab completion]], which speeds up typing the command in the first place.
