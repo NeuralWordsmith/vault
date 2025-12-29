@@ -185,10 +185,16 @@ _This is the central index for this course. As I create new atomic notes, I will
 
 ## 3. Key Takeaways & Reflections
 
-_After completing the course, what are the 2-3 most important ideas that I will carry forward? Were there any "aha!" moments that connected this topic to others in a new way?_
+
 
 ## 4. Related Projects & Applications
 
 _A list of projects where I have applied the skills from this course. This directly links my theoretical knowledge to practical, portfolio-worthy application._
 
-- [[ ]]
+1. **Step one**: [[Git 1 - Exercise One|Version Control Exists to Solve State Fragility]] 
+2. **Step two**: [[Git 1 - Exercise Two|Repository Boundary & Nested Repository Failure]]
+3. **Step three**: [[Git 1 - Exercise Three|Staging vs Committing — Separating Intent from Permanence]]
+4. **Step four**: [[Git 1 - Exercise Four|Commit Hashes & Immutability — Why Git History Can Be Trusted]]
+5. **Step five**: [[Git 1 - Exercise Five|git log as a query engine]]
+6. **Step Six**: [[Git 1 - Exercise Six|diffs as explicit comparisons]]
+7. **Step Seven**: [[Git 1 - Exercise Seven|undoing changes safely]]

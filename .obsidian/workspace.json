@@ -15,9 +15,9 @@
               "state": {
                 "file": "Begin Here.canvas",
                 "viewState": {
-                  "x": 474.6078934526886,
-                  "y": 696.076472359451,
-                  "zoom": -0.6000000000000001
+                  "x": 33.56030673258573,
+                  "y": 467.1410644605529,
+                  "zoom": -1.52592590190828
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -191,6 +191,8 @@
   },
   "active": "044ab6460457ed2a",
   "lastOpenFiles": [
+    "Begin Here.canvas",
+    "rule for completion.md",
     "01 Core Skills/Git - Version Control.md",
     "01 Core Skills/Git - Shell (Terminal).md",
     "01 Core Skills/Git - Git Version Control System.md",
@@ -200,7 +202,6 @@
     "00 Courses/03 - Introduction to Git",
     "03 - Introduction to Git/Introduction to Git.md",
     "03 - Introduction to Git",
-    "Begin Here.canvas",
     "01 Core Skills/Shell - Renaming via Move.md",
     "01 Core Skills/Shell - less Command.md",
     "01 Core Skills/Shell - Filesystem Hierarchy.md",
@@ -218,8 +219,6 @@
     "00 Absorption/Shell - grep Command - Absorption.md",
     "00 Absorption/Shell - man Command - Absorption.md",
     "00 Absorption/Shell - Command History - Absorption.md",
-    "00 Absorption/Shell - Tab Completion - Absorption.md",
-    "00 Absorption/Shell - Productivity Tools - Absorption.md",
     "00 Absorption",
     "Course one",
     "Untitled",
