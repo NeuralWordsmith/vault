@@ -34,13 +34,14 @@ related:
 
 _Analogy:_ _Think of the staging area as a shopping cart in a grocery store. Your working directory is the entire store with all its aisles and products (all your project files). As you walk through the store, you pick up specific items you intend to buy (modified files or parts of files) and place them in your cart. The cart holds exactly what you've decided to purchase. When you're ready, you take the cart to the checkout counter to finalize the transaction, which is like making a [[Git - Commit|commit]]. You don't buy the whole store, just what's in your cart._
 
-The shopping cart represents the staging area, the items in the cart are the staged changes, and the checkout process is the commit. **Where it breaks down:** The analogy implies a one-way transaction. In Git, you can easily 'unstage' changes (take items out of your cart before checkout) without any penalty, which isn't always true in a real store.
+The shopping cart represents the staging area, the items in the cart are the staged changes, and the checkout process is the commit. 
+
+**Where it breaks down:** The analogy implies a one-way transaction. In Git, you can easily 'unstage' changes (take items out of your cart before checkout) without any penalty, which isn't always true in a real store.
 
 ```
       Working Directory      --->      Staging Area (Index)      --->      Repository (.git)
-(Your local files)         (Draft of next commit)      (Permanent History)
-
-        |                          |                             |
+		(Your local files)         (Draft of next commit)      (Permanent History)
+		        |                          |                             |
         `-----(git add)----->`      `-----(git commit)----->`     `-----(git push)-----> Remote
 ```
 

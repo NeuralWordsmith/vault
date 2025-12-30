@@ -55,8 +55,8 @@ Working Directory ────(git add)────> Staging Area ────(g
 
 - **How it Works:** The process moves changes through three distinct states before they are permanently recorded.
     1. **Modify:** You edit, create, or delete files in your project folder, known as the 'working directory'. At this point, Git is aware of the changes but is not yet tracking them for the next save.
-    2. **Stage:** You use the `[[Git - git add Command|git add]]` command to select specific changes from your working directory and move them to the [[Git - Staging Area|staging area]]. This acts as a 'drafting space' for your next commit, allowing you to group related changes together.
-    3. **Commit:** You use the `[[Git - git commit Command|git commit]]` command to take all the changes currently in the staging area and save them as a permanent snapshot in the project's history (the repository). Each [[Git - Commit|commit]] has a unique ID and a descriptive message.
+    2. **Stage:** You use the [[Git - git add Command|git add]] command to select specific changes from your working directory and move them to the [[Git - Staging Area|staging area]]. This acts as a 'drafting space' for your next commit, allowing you to group related changes together.
+    3. **Commit:** You use the [[Git - git commit Command|git commit]] command to take all the changes currently in the staging area and save them as a permanent snapshot in the project's history (the repository). Each [[Git - Commit|commit]] has a unique ID and a descriptive message.
 
 ### Deliverables / Outputs
 

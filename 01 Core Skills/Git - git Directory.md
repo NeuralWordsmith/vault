@@ -64,7 +64,6 @@ To serve as a self-contained database for a Git repository, storing the complete
 
 #### Mechanism
 
-
 - **How it Works:**
     1. When a repository is created using the [[Git - git init Command]], Git generates the `.git` directory in the project's root.
     2. This directory contains several subdirectories and files that manage different aspects of the repository.
