@@ -79,7 +79,6 @@ To provide a clear, line-by-line visualization of the content differences betwee
 
 ##### Code Translation
 
-
 ```bash
 # --- Step 1 & 2: Identify branches and execute the command ---
 # Let's compare the 'main' branch with a 'feature/add-user-auth' branch
@@ -101,8 +100,6 @@ git diff main feature/add-user-auth
 #  if __name__ == "__main__":
 #      main()
 ```
-
- [[Code - Comparing Branches with git diff Implementation|View Full Implementation & Analysis]]
 
 #### Key Parameters
 

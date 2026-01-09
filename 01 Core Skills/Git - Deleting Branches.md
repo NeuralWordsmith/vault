@@ -63,6 +63,13 @@ To keep the project repository clean, organized, and easy for all team members t
     2.  **Integrate Changes:** The changes from the feature branch are merged into the main branch (e.g., `main`) using a command like `git merge` or through a pull request.
     3.  **Verify Integration:** The team confirms that the merged code works as expected in the main branch.
     4.  **Delete the Branch:** The now-redundant feature branch is deleted from the local and/or remote repository.
+- Note:
+ 1. **A branch cannot be deleted if it is active/checked out**  
+	→ structural invariant
+2. **Safe delete protects unmerged work by default**  
+	→ value assumption
+3. **Force delete overrides that value assumption, not structural rules**  
+	→ explicit discard of intent
 - **Safe Deletion:**
     - This is the standard, recommended method for deleting branches, detailed in [[Git - Safe Deleting Branches with git branch -d|Safe Deleting Branches]].
     - It acts as a safety check, preventing you from deleting a branch that has not been fully merged into the branch you are currently on.
@@ -71,12 +78,6 @@ To keep the project repository clean, organized, and easy for all team members t
     - This method, explained in [[Git - Force Deleting Branches with git branch -D|Force Deleting Branches]], deletes a branch regardless of its merge status.
     - It should be used with caution, as it can lead to losing work that hasn't been integrated elsewhere.
     - *Example: You started a feature, decided it was a bad idea, and want to discard it completely without merging. You would use force delete.*
-
-```python
-nothing to fill here
-```
-
- [[Code - Deleting Redundant Branches Implementation|View Full Implementation & Analysis]]
 
 #### Key Parameters
 

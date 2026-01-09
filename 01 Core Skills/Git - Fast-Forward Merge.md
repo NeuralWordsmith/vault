@@ -65,7 +65,6 @@ To integrate changes from a source branch into a destination branch as efficient
 
 ##### Code Translation
 
-```python
 ```bash
 # Assume we are on the 'main' branch and want to merge 'ai-assistant'
 # The history is linear: 'main' has not changed since 'ai-assistant' was created.
@@ -83,9 +82,6 @@ git merge ai-assistant
 #  src/api.py | 10 +++++++++-
 #  1 file changed, 9 insertions(+), 1 deletion(-)
 ```
-```
-
- [[Code - Fast-Forward Merge Implementation|View Full Implementation & Analysis]]
 
 #### Key Parameters
 

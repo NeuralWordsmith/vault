@@ -84,7 +84,7 @@ _This is the central index for this course. As I create new atomic notes, I will
 	- You need to explain to someone why a feature’s history is visible—or invisible—in git log	    
 	- You are debugging an issue that appeared only after multiple branches converged
 
-### Chapter 2: ### Collaborating with Git
+### Chapter 2: Collaborating with Git
 
 **1. Merge conflicts**
 
@@ -174,13 +174,15 @@ _This is the central index for this course. As I create new atomic notes, I will
 	- A pull creates an unexpected merge commit	    
 	- You are deciding when a local branch should become visible remotely	    
 	- Collaboration feels slow or conflict-heavy despite “correct” commands
+
+---
 ## 3. Key Takeaways & Reflections
 
-_After completing the course, what are the 2-3 most important ideas that I will carry forward? Were there any "aha!" moments that connected this topic to others in a new way?_
+[[Git - Master Cheatsheet 2]]
 
+---
 ## 4. Related Projects & Applications
 
 _A list of projects where I have applied the skills from this course. This directly links my theoretical knowledge to practical, portfolio-worthy application._
 
-1. [[|123]]
-2. 
+- [[Git 2 - Exercise Plan]]

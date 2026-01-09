@@ -15,9 +15,9 @@
               "state": {
                 "file": "Begin Here.canvas",
                 "viewState": {
-                  "x": 33.56030673258573,
-                  "y": 467.1410644605529,
-                  "zoom": -1.52592590190828
+                  "x": 420.2613947409006,
+                  "y": -168.63310096935328,
+                  "zoom": 1
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3d7aa00e1d25033a",
@@ -191,7 +190,14 @@
   },
   "active": "044ab6460457ed2a",
   "lastOpenFiles": [
+    "00 Inbox/01 Daily Notes/2026/Q1/2026-01/W1/2026-01-01.md",
     "Begin Here.canvas",
+    "00 Inbox/01 Daily Notes/2026/Q1/2026-01/W1",
+    "00 Inbox/01 Daily Notes/2026/Q1/2026-01",
+    "00 Inbox/01 Daily Notes/2026/Q1",
+    "00 Inbox/01 Daily Notes/2026",
+    "00 Inbox/01 Daily Notes",
+    "00 Inbox",
     "rule for completion.md",
     "01 Core Skills/Git - Version Control.md",
     "01 Core Skills/Git - Shell (Terminal).md",
@@ -218,12 +224,7 @@
     "00 Absorption/Shell - paste Command - Absorption.md",
     "00 Absorption/Shell - grep Command - Absorption.md",
     "00 Absorption/Shell - man Command - Absorption.md",
-    "00 Absorption/Shell - Command History - Absorption.md",
     "00 Absorption",
-    "Course one",
-    "Untitled",
-    "01 Core Skills/00 Courses/01 - Understanding Cloud Computing",
-    "01 Core Skills/00 Courses",
-    "01 Core Skills"
+    "Course one"
   ]
 }

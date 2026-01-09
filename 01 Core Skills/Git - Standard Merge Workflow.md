@@ -70,7 +70,6 @@ In this analogy:
 
 ##### Code Translation
 
-```python
 ```bash
 # --- Step 1: Identify Branches ---
 # Source: ai-assistant
@@ -86,7 +85,6 @@ git merge ai-assistant
 
 # --- Step 4: Review the Outcome ---
 # Git will now output the results of the merge.
-```
 ```
 
 ### Deliverables / Outputs
@@ -121,7 +119,7 @@ To integrate independent lines of development from a source branch into a single
     │                │                │
 (Prerequisite)  ┌──────────────────┐  (Key Concept)
 Source & Dest.  │  Branch Merging  │  Parent Commits
-   Branches   └──────────────────┘
+   Branches     └──────────────────┘
                        │
             ┌──────────┴──────────┐
             │                     │
