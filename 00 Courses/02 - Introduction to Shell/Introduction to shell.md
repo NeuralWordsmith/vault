@@ -1,7 +1,7 @@
 ---
 tags:
   - shell
-status: Started
+status: Completed
 start_date: 2025-12-11
 end_date: 2025-12-24
 ---
@@ -31,7 +31,6 @@ _This is the central index for this course. As I create new atomic notes, I will
 - [[Shell - Deletion Permanence]]
 - [[Shell - rm vs rmdir]]
 - [[Shell - Common Commands Cheatsheet]]
-- [[Shell - Exercise One]]
 
 ### Chapter 2: Manipulating data
 
@@ -53,7 +52,6 @@ _This is the central index for this course. As I create new atomic notes, I will
 - [[Shell - head vs cut]]
 - [[Shell - cut & paste Relationship]]
 - [[Shell - File Inspection & Manipulation Cheatsheet]]
-- [[Shell - Exercise Two]]
 
 ### Chapter 3: Combining Tools
 
@@ -73,7 +71,6 @@ _This is the central index for this course. As I create new atomic notes, I will
 - [[Shell - Redirection & Pipelines Relationship]]
 - [[Shell - Stopping Programs]]
 - [[Shell - Common Commands Cheatsheet 3]]
-- [[Shell - Exercise Three]]
 
 ### Chapter 4: Batch processing
 
@@ -89,7 +86,6 @@ _This is the central index for this course. As I create new atomic notes, I will
 - [[Shell - Running Multiple Commands in a Loop]]
 - [[Shell - Handling Filenames with Spaces]]
 - [[Shell - Batch Processing Cheatsheet]]
-- [[Shell - Exercise Four]]
 
 ### Chapter 5: Creating new tools
 
@@ -106,9 +102,9 @@ _This is the central index for this course. As I create new atomic notes, I will
 - [[Shell - Script Comments]]
 - [[Shell - Troubleshooting Hanging Scripts]]
 - [[Shell - Scripting Fundamentals Cheatsheet]]
-- [[Shell - Exercise Five]]
-
 ## 3. Key Takeaways & Reflections
+
+- [[Shell - Master Cheatsheet]]
 
 - **Determine** how commands can be combined using redirection, pipes, and command substitution
 - **Identify** how shell scripts, variables, and command-line parameters are used to automate tasks
@@ -120,4 +116,8 @@ _This is the central index for this course. As I create new atomic notes, I will
 
 _A list of projects where I have applied the skills from this course. This directly links my theoretical knowledge to practical, portfolio-worthy application._
 
-- [[ ]]
+- [[Shell - Exercise One]]
+- [[Shell - Exercise Two]]
+- [[Shell - Exercise Three]]
+- [[Shell - Exercise Four]]
+- [[Shell - Exercise Five]]

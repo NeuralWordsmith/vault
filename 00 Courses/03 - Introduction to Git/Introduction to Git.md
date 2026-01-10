@@ -3,7 +3,7 @@ tags:
   - "#git"
 status: Started
 start_date: 2025-12-25
-end_date:
+end_date: 2025-12-29
 ---
 # Course: Introduction to Git
 
@@ -66,6 +66,7 @@ _This is the central index for this course. As I create new atomic notes, I will
 	- You are structuring multi-project directories and feel unsure where repos should start or end
 
 #### 3. Staging and committing files
+
 - [[Git - Basic Workflow]]
 - [[Git - Staging Area]]
 - [[Git - Commit]]
@@ -185,8 +186,9 @@ _This is the central index for this course. As I create new atomic notes, I will
 
 ## 3. Key Takeaways & Reflections
 
+[[Git - Master Cheatsheet 1]]
 
-
+---
 ## 4. Related Projects & Applications
 
 _A list of projects where I have applied the skills from this course. This directly links my theoretical knowledge to practical, portfolio-worthy application._
