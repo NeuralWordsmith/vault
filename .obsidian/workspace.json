@@ -15,16 +15,31 @@
               "state": {
                 "file": "Begin Here.canvas",
                 "viewState": {
-                  "x": 420.2613947409006,
-                  "y": -168.63310096935328,
-                  "zoom": 1
+                  "x": -381.88174666802934,
+                  "y": -26.275864949164138,
+                  "zoom": -1.4000000000000001
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Begin Here"
             }
+          },
+          {
+            "id": "f38a2843500460ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11 Courses/10 - Introduction to Python/Introduction to Python.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction to Python"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,43 +203,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "044ab6460457ed2a",
+  "active": "f38a2843500460ce",
   "lastOpenFiles": [
-    "00 Inbox/01 Daily Notes/2026/Q1/2026-01/W1/2026-01-01.md",
+    "02 Production-Ready Python/Introduction to Python Cheat Sheet.md",
+    "11 Courses/10 - Introduction to Python/Introduction to Python.md",
+    "02 Production-Ready Python/Introduction to Python Take-aways.md",
     "Begin Here.canvas",
-    "00 Inbox/01 Daily Notes/2026/Q1/2026-01/W1",
-    "00 Inbox/01 Daily Notes/2026/Q1/2026-01",
-    "00 Inbox/01 Daily Notes/2026/Q1",
-    "00 Inbox/01 Daily Notes/2026",
-    "00 Inbox/01 Daily Notes",
-    "00 Inbox",
-    "rule for completion.md",
-    "01 Core Skills/Git - Version Control.md",
-    "01 Core Skills/Git - Shell (Terminal).md",
-    "01 Core Skills/Git - Git Version Control System.md",
-    "01 Core Skills/Git - Benefits of Version Control.md",
-    "01 Core Skills/Git - Benefits of Git.md",
-    "00 Courses/03 - Introduction to Git/Introduction to Git.md",
-    "00 Courses/03 - Introduction to Git",
-    "03 - Introduction to Git/Introduction to Git.md",
-    "03 - Introduction to Git",
-    "01 Core Skills/Shell - Renaming via Move.md",
-    "01 Core Skills/Shell - less Command.md",
-    "01 Core Skills/Shell - Filesystem Hierarchy.md",
-    "01 Core Skills/Shell - cut Command.md",
-    "01 Core Skills/Shell - Command Flags.md",
-    "01 Core Skills/Shell - File & Content Inspection.md",
-    "00 Absorption/Shell - File & Content Inspection - Absorption.md",
-    "00 Courses/02 - Introduction to Shell/Introduction to shell.md",
-    "00 Absorption/Shell - cat Command - Absorption.md",
-    "00 Absorption/Shell - Command Flags - Absorption.md",
-    "00 Absorption/Shell - File Inspection & Manipulation Cheatsheet - Absorption.md",
-    "00 Absorption/Shell - cut & paste Relationship - Absorption.md",
-    "00 Absorption/Shell - head vs cut - Absorption.md",
-    "00 Absorption/Shell - paste Command - Absorption.md",
-    "00 Absorption/Shell - grep Command - Absorption.md",
-    "00 Absorption/Shell - man Command - Absorption.md",
-    "00 Absorption",
-    "Course one"
+    "11 Courses/11 - Intermediate Python/Intermediate Python.md",
+    "11 Courses/31 - Extreme Gradient Boosting with XGBoost/Extreme Gradient Boosting with XGBoost.md",
+    "11 Courses/19 - Introduction to Testing in Python/Introduction to Testing in Python.md",
+    "11 Courses/12 - Introduction to Functions in Python/Introduction to Functions in Python.md",
+    "11 Courses/20 - Data Types in Python/Data Types in Python.md",
+    "11 Courses/29 - Unsupervised Learning in Python/Unsupervised Learning in Python.md",
+    "11 Courses/03 - Introduction to Git/Introduction to Git.md",
+    "11 Courses/01 - Understanding Cloud Computing/Understanding Cloud Computing.md",
+    "11 Courses/22 - Introduction to NumPy/Introduction to NumPy.md",
+    "11 Courses/22 - Introduction to NumPy",
+    "11 Courses/15 - Introduction to Object-Oriented Programming in Python/Introduction to Object-Oriented Programming in Python.md",
+    "11 Courses/15 - Introduction to Object-Oriented Programming in Python",
+    "11 Courses/18 - Software Engineering Principles in Python/Software Engineering Principles in Python.md",
+    "11 Courses/18 - Software Engineering Principles in Python",
+    "11 Courses/05 - Advanced Git",
+    "11 Courses/16 - Intermediate Object-Oriented Programming in Python/Intermediate Object-Oriented Programming in Python.md",
+    "11 Courses/16 - Intermediate Object-Oriented Programming in Python",
+    "11 Courses/27 - Supervised Learning with scikit-learn/Supervised Learning with scikit-learn.md",
+    "11 Courses/27 - Supervised Learning with scikit-learn",
+    "11 Courses/24 - Joining Data with pandas/Joining Data with pandas.md",
+    "11 Courses/24 - Joining Data with pandas",
+    "11 Courses/26 - Introduction to Statistics in Python/Introduction to Statistics in Python.md",
+    "11 Courses/26 - Introduction to Statistics in Python",
+    "11 Courses/14 - Writing Functions in Python/Writing Functions in Python.md",
+    "11 Courses/14 - Writing Functions in Python",
+    "11 Courses/09 - Understanding Data Engineering/Understanding Data Engineering.md",
+    "11 Courses/09 - Understanding Data Engineering",
+    "11 Courses/13 - Python Toolbox/Python Toolbox.md",
+    "11 Courses/02 - Introduction to Shell/Introduction to shell.md",
+    "11 Courses/17 - Data Structures and Algorithms in Python/Data Structures and Algorithms in Python.md",
+    "11 Courses/25 - Cleaning Data in Python/Cleaning Data in Python.md",
+    "11 Courses/28 - Linear Classifiers in Python/Linear Classifiers in Python.md",
+    "11 Courses/30 - Machine Learning with Tree-Based Models in Python/Machine Learning with Tree-Based Models in Python.md"
   ]
 }

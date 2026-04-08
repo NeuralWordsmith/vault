@@ -1,0 +1,376 @@
+---
+tags:
+status: Notes created
+start_date: 2026-03-01
+end_date:
+---
+# Course: Introduction to Statistics in Python
+
+# 1. Summary & Goals
+
+_A brief, one-paragraph description of the course. What are its main objectives? Why am I taking it, and what key skills do I expect to gain?_
+
+---
+# 2. Core Concepts & Notes
+
+_This is the central index for this course. As I create new atomic notes, I will link them here under the relevant module or topic._
+
+## Chapter 1: Summary Statistics
+### 01 - What is statistics
+
+1. [[Fundamental - Statistics]]
+2. [[Stats - Summary Statistic]]
+3. [[Stats - Applications of Statistics]]
+4. [[Stats - Limitations of Statistics]]
+5. [[Stats - Descriptive Statistics]]
+6. [[Stats - Inferential Statistics]]
+7. [[Stats - Descriptive vs Inferential Statistics]]
+8. [[Stats - Data Types]]
+9. [[Stats - Numeric Data]]
+10. [[Stats - Categorical Data]]
+11. [[Stats - Continuous Data]]
+12. [[Stats - Discrete Data]]
+13. [[Stats - Nominal Data]]
+14. [[Stats - Ordinal Data]]
+15. [[Stats - Numeric Encoding of Categorical Data]]
+16. [[Stats - Data Types & Analysis Methods Relationship]]
+### 02 - Measures of center
+
+1. [[Stats - Summary Statistics]]
+2. [[Stats - Measures of Central Tendency]]
+3. [[Stats - Mean (Average)]]
+4. [[NumPy - Calculating the Mean]]
+5. [[Stats - Median]]
+6. [[NumPy - Calculating the Median]]
+7. [[Stats - Mode]]
+8. [[Python - Calculating the Mode]]
+9. [[Stats - Mean vs Median]]
+10. [[Stats - Skewness (Left & Right Skew)]]
+11. [[Stats - Data Skew & Measures of Center Relationship]]
+### 03 - Measures of spread
+
+1. [[Python - Measures of Spread]]
+2. [[Python - Variance]]
+3. [[Python - Variance Calculation Process]]
+4. [[Python - Degrees of Freedom (ddof)]]
+5. [[Python - Standard Deviation]]
+6. [[Python - Mean Absolute Deviation (MAD)]]
+7. [[Python - Standard Deviation vs Mean Absolute Deviation]]
+8. [[Python - Quantiles (Percentiles)]]
+9. [[Python - Quartiles]]
+10. [[Python - Interquartile Range (IQR)]]
+11. [[Python - Outliers]]
+12. [[Python - Outlier Detection using IQR]]
+13. [[Python - Pandas describe() Method]]
+
+## Chapter 2: Random Numbers and Probability
+### 01 - What are the chances
+
+1. [[Stats - Probability]]
+2. [[Stats - Random Seed]]
+3. [[Stats - Sampling Methods]]
+4. [[Stats - Sampling Without Replacement]]
+5. [[Stats - Sampling With Replacement]]
+6. [[Stats - Independent Events]]
+7. [[Stats - Dependent Events]]
+8. [[Stats - Independent vs Dependent Events]]
+9. [[Stats - Sampling With Replacement & Independent Events Relationship]]
+10. [[Stats - Sampling Without Replacement & Dependent Events Relationship]]
+### 02 - Discrete distributions
+
+1. [[Stats - Probability Distribution]]
+2. [[Stats - Expected Value]]
+3. [[Stats - Discrete Probability Distribution]]
+4. [[Stats - Discrete Uniform Distribution]]
+5. [[Stats - Law of Large Numbers]]
+### 03 - Continuous distributions
+
+1. [[Stats - Continuous Probability Distributions]]
+2. [[Stats - Continuous Uniform Distribution]]
+3. [[Stats - Probability as Area Under the Curve]]
+4. [[Stats - Total Area Under a Probability Density Function is 1]]
+5. [[Stats - Cumulative Distribution Function (CDF)]]
+6. [[Stats - Survival Function (1 - CDF)]]
+7. [[Stats - Calculating Probability with uniform.cdf()]]
+8. [[Stats - Calculating Interval Probability with CDF]]
+9. [[Stats - Generating Random Variates with uniform.rvs()]]
+### 04 - The binomial distribution
+
+1. [[Stats - Binomial Distribution]]
+2. [[Stats - Binary Outcome]]
+3. [[Stats - Binomial Distribution Parameters (n, p)]]
+4. [[Stats - Simulating Binomial Distribution with scipy.stats]]
+5. [[Stats - Binomial Distribution PMF]]
+6. [[Stats - Binomial Distribution CDF]]
+7. [[Stats - Expected Value of a Binomial Distribution]]
+8. [[Stats - Independent Trials Assumption for Binomial Distribution]]
+
+## Chapter 3: More Distributions and the Central Limit Theorem
+### 01 - The normal distribution
+
+1. [[Stats - Normal Distribution]]
+2. [[Stats - Properties of the Normal Distribution]]
+3. [[Stats - Standard Normal Distribution]]
+4. [[Stats - The 68-95-99.7 Rule]]
+5. [[Python - SciPy (Scientific Python)]]
+6. [[Python - Calculating Cumulative Probability with norm.cdf]]
+7. [[Python - Calculating Upper Tail Probability with norm.cdf]]
+8. [[Python - Calculating Probability Between Two Points with norm.cdf]]
+9. [[Python - Calculating Quantiles with norm.ppf]]
+10. [[Python - Generating Random Samples with norm.rvs]]
+### 02 - The central limit theorem
+
+1. [[Stats - Central Limit Theorem (CLT)]]
+2. [[Stats - Sampling Distribution]]
+3. [[Stats - Conditions for the Central Limit Theorem]]
+4. [[Stats - Applications of the Central Limit Theorem]]
+5. [[Stats - Central Limit Theorem & Summary Statistics Relationship]]
+6. [[Stats - Illustrating the Central Limit Theorem with Dice Rolls]]
+### 03 - The Poisson distribution
+
+1. [[Stats - Poisson Process]]
+2. [[Stats - Poisson Distribution]]
+3. [[Stats - Lambda in Poisson Distribution]]
+4. [[Stats - Lambda & Poisson Distribution Shape Relationship]]
+5. [[Stats - Calculating Poisson Probabilities with SciPy]]
+6. [[Stats - Sampling from a Poisson Distribution with SciPy]]
+7. [[Stats - Sampling Distribution of Poisson Sample Means]]
+### 04 - More probability distributions
+
+1. [[Stats - Exponential Distribution]]
+2. [[Stats - Lambda in Exponential Distribution]]
+3. [[Stats - Exponential & Poisson Distribution Relationship]]
+4. [[Stats - Expected Value of Exponential Distribution]]
+5. [[Stats - Calculating Probabilities with Exponential Distribution]]
+6. [[Stats - t-Distribution]]
+7. [[Stats - t-Distribution vs Normal Distribution]]
+8. [[Stats - Degrees of Freedom in t-Distribution]]
+9. [[Stats - Degrees of Freedom & t-Distribution Shape Relationship]]
+10. [[Stats - Log-Normal Distribution]]
+## Chapter 4: Correlation and Experimental Design
+### 01 - Correlation
+
+1. [[Stats - Correlation]]
+2. [[Stats - Explanatory vs. Response Variables]]
+3. [[Stats - Correlation Coefficient (r)]]
+4. [[Stats - Strength of Correlation]]
+5. [[Stats - Direction of Correlation]]
+6. [[Stats - Scatter Plots]]
+7. [[Python - Creating a Scatter Plot with Seaborn]]
+8. [[Python - Adding a Trendline with Seaborn lmplot]]
+9. [[Python - Calculating Correlation with Pandas .corr()]]
+10. [[Stats - Pearson Product-Moment Correlation]]
+### 02 - Correlation caveats
+
+1. [[Stats - Correlation Measures Linear Relationships Only]]
+2. [[Stats - Importance of Visualizing Data Before Correlation]]
+3. [[Stats - Log Transformation for Skewed Data]]
+4. [[Stats - Common Data Transformations to Linearize Relationships]]
+5. [[Stats - Data Transformation & Linear Model Requirement Relationship]]
+6. [[Stats - Correlation Does Not Imply Causation]]
+7. [[Stats - Spurious Correlation]]
+8. [[Stats - Confounding Variables (Lurking Variables)]]
+9. [[Stats - Margarine Consumption and Divorce Rate]]
+10. [[Stats - Coffee, Smoking, and Lung Cancer Confounding]]
+11. [[Stats - Holidays, Special Deals, and Retail Sales Confounding]]
+### 03 - Design of experiments
+
+1. [[Stats - Design of Experiments]]
+2. [[Stats - Treatment & Response Relationship]]
+3. [[Stats - Treatment (Explanatory Variable)]]
+4. [[Stats - Response (Dependent Variable)]]
+5. [[Stats - Controlled Experiments vs Observational Studies]]
+6. [[Stats - Controlled Experiment]]
+7. [[Stats - AB Testing]]
+8. [[Stats - Confounding (Bias)]]
+9. [[Stats - Randomized Controlled Trial (RCT)]]
+10. [[Stats - Placebo]]
+11. [[Stats - Double-Blind Experiment]]
+12. [[Stats - Observational Study]]
+13. [[Stats - Observational Studies & Association Relationship]]
+14. [[Stats - Longitudinal vs Cross-Sectional Studies]]
+15. [[Stats - Longitudinal Study]]
+16. [[Stats - Cross-Sectional Study]]
+
+
+---
+# 3. Key Takeaways & Reflections
+
+_After completing the course, what are the 2-3 most important ideas that I will carry forward? Were there any "aha!" moments that connected this topic to others in a new way?_
+
+- **Everything covered in this course:** [[ - Major Takeaway note]]
+- **Cheat Sheet:** [[ - Cheat sheet]]
+
+---
+# 4. Related Projects & Applications
+
+_A list of projects where I have applied the skills from this course. This directly links my theoretical knowledge to practical, portfolio-worthy application._
+
+- **Exercises:** [[ - Exercise plan]]
+
+---
+
+- **Created Plans:**
+	- [x] [[Statistics - Data's Dialogue 877]]
+	- [x] [[Statistics - Finding The Center 768]]
+	- [x] [[Python - Measuring The Spread 528]]
+	- [x] [[Statistics - Measuring Chance 849]]
+	- [x] [[Statistics - Rolling The Dice 974]]
+	- [x] [[Stats - Smooth Probabilities 194]]
+	- [x] [[Stats - A Flip Of The Coin 445]]
+	- [x] [[Stats - Bell Curve Breakdown 138]]
+	- [x] [[Stats - Means Converge 518]]
+	- [x] [[Statistics - Randomly Timed Events 729]]
+	- [x] [[Statistics - Distributions Deep Dive 462]]
+	- [x] [[Stats - Quantifying Relationships 911]]
+	- [x] [[Stats - Correlation Caveats 983]]
+	- [x] [[Stats - Designing Discovery 314]]
+	- [ ] [[Stats - Statistical Recap 516]]
+
+---
+
+## Links present in this note
+
+
+1. [[Fundamental - Statistics]]
+2. [[NumPy - Calculating the Mean]]
+3. [[NumPy - Calculating the Median]]
+4. [[Python - Adding a Trendline with Seaborn lmplot]]
+5. [[Python - Calculating Correlation with Pandas .corr()]]
+6. [[Python - Calculating Cumulative Probability with norm.cdf]]
+7. [[Python - Calculating Probability Between Two Points with norm.cdf]]
+8. [[Python - Calculating Quantiles with norm.ppf]]
+9. [[Python - Calculating Upper Tail Probability with norm.cdf]]
+10. [[Python - Calculating the Mode]]
+11. [[Python - Creating a Scatter Plot with Seaborn]]
+12. [[Python - Degrees of Freedom (ddof)]]
+13. [[Python - Generating Random Samples with norm.rvs]]
+14. [[Python - Interquartile Range (IQR)]]
+15. [[Python - Mean Absolute Deviation (MAD)]]
+16. [[Python - Measures of Spread]]
+17. [[Python - Outlier Detection using IQR]]
+18. [[Python - Outliers]]
+19. [[Python - Pandas describe() Method]]
+20. [[Python - Quantiles (Percentiles)]]
+21. [[Python - Quartiles]]
+22. [[Python - SciPy (Scientific Python)]]
+23. [[Python - Standard Deviation]]
+24. [[Python - Standard Deviation vs Mean Absolute Deviation]]
+25. [[Python - Variance]]
+26. [[Python - Variance Calculation Process]]
+27. [[Stats - AB Testing]]
+28. [[Stats - Applications of Statistics]]
+29. [[Stats - Applications of the Central Limit Theorem]]
+30. [[Stats - Binary Outcome]]
+31. [[Stats - Binomial Distribution]]
+32. [[Stats - Binomial Distribution CDF]]
+33. [[Stats - Binomial Distribution PMF]]
+34. [[Stats - Binomial Distribution Parameters (n, p)]]
+35. [[Stats - Calculating Interval Probability with CDF]]
+36. [[Stats - Calculating Poisson Probabilities with SciPy]]
+37. [[Stats - Calculating Probabilities with Exponential Distribution]]
+38. [[Stats - Calculating Probability with uniform.cdf()]]
+39. [[Stats - Categorical Data]]
+40. [[Stats - Central Limit Theorem & Summary Statistics Relationship]]
+41. [[Stats - Central Limit Theorem (CLT)]]
+42. [[Stats - Coffee, Smoking, and Lung Cancer Confounding]]
+43. [[Stats - Common Data Transformations to Linearize Relationships]]
+44. [[Stats - Conditions for the Central Limit Theorem]]
+45. [[Stats - Confounding (Bias)]]
+46. [[Stats - Confounding Variables (Lurking Variables)]]
+47. [[Stats - Continuous Data]]
+48. [[Stats - Continuous Probability Distributions]]
+49. [[Stats - Continuous Uniform Distribution]]
+50. [[Stats - Controlled Experiment]]
+51. [[Stats - Controlled Experiments vs Observational Studies]]
+52. [[Stats - Correlation]]
+53. [[Stats - Correlation Coefficient (r)]]
+54. [[Stats - Correlation Does Not Imply Causation]]
+55. [[Stats - Correlation Measures Linear Relationships Only]]
+56. [[Stats - Cross-Sectional Study]]
+57. [[Stats - Cumulative Distribution Function (CDF)]]
+58. [[Stats - Data Skew & Measures of Center Relationship]]
+59. [[Stats - Data Transformation & Linear Model Requirement Relationship]]
+60. [[Stats - Data Types]]
+61. [[Stats - Data Types & Analysis Methods Relationship]]
+62. [[Stats - Degrees of Freedom & t-Distribution Shape Relationship]]
+63. [[Stats - Degrees of Freedom in t-Distribution]]
+64. [[Stats - Dependent Events]]
+65. [[Stats - Descriptive Statistics]]
+66. [[Stats - Descriptive vs Inferential Statistics]]
+67. [[Stats - Design of Experiments]]
+68. [[Stats - Direction of Correlation]]
+69. [[Stats - Discrete Data]]
+70. [[Stats - Discrete Probability Distribution]]
+71. [[Stats - Discrete Uniform Distribution]]
+72. [[Stats - Double-Blind Experiment]]
+73. [[Stats - Expected Value]]
+74. [[Stats - Expected Value of Exponential Distribution]]
+75. [[Stats - Expected Value of a Binomial Distribution]]
+76. [[Stats - Explanatory vs. Response Variables]]
+77. [[Stats - Exponential & Poisson Distribution Relationship]]
+78. [[Stats - Exponential Distribution]]
+79. [[Stats - Generating Random Variates with uniform.rvs()]]
+80. [[Stats - Holidays, Special Deals, and Retail Sales Confounding]]
+81. [[Stats - Illustrating the Central Limit Theorem with Dice Rolls]]
+82. [[Stats - Importance of Visualizing Data Before Correlation]]
+83. [[Stats - Independent Events]]
+84. [[Stats - Independent Trials Assumption for Binomial Distribution]]
+85. [[Stats - Independent vs Dependent Events]]
+86. [[Stats - Inferential Statistics]]
+87. [[Stats - Lambda & Poisson Distribution Shape Relationship]]
+88. [[Stats - Lambda in Exponential Distribution]]
+89. [[Stats - Lambda in Poisson Distribution]]
+90. [[Stats - Law of Large Numbers]]
+91. [[Stats - Limitations of Statistics]]
+92. [[Stats - Log Transformation for Skewed Data]]
+93. [[Stats - Log-Normal Distribution]]
+94. [[Stats - Longitudinal Study]]
+95. [[Stats - Longitudinal vs Cross-Sectional Studies]]
+96. [[Stats - Margarine Consumption and Divorce Rate]]
+97. [[Stats - Mean (Average)]]
+98. [[Stats - Mean vs Median]]
+99. [[Stats - Measures of Central Tendency]]
+100. [[Stats - Median]]
+101. [[Stats - Mode]]
+102. [[Stats - Nominal Data]]
+103. [[Stats - Normal Distribution]]
+104. [[Stats - Numeric Data]]
+105. [[Stats - Numeric Encoding of Categorical Data]]
+106. [[Stats - Observational Studies & Association Relationship]]
+107. [[Stats - Observational Study]]
+108. [[Stats - Ordinal Data]]
+109. [[Stats - Pearson Product-Moment Correlation]]
+110. [[Stats - Placebo]]
+111. [[Stats - Poisson Distribution]]
+112. [[Stats - Poisson Process]]
+113. [[Stats - Probability]]
+114. [[Stats - Probability Distribution]]
+115. [[Stats - Probability as Area Under the Curve]]
+116. [[Stats - Properties of the Normal Distribution]]
+117. [[Stats - Random Seed]]
+118. [[Stats - Randomized Controlled Trial (RCT)]]
+119. [[Stats - Response (Dependent Variable)]]
+120. [[Stats - Sampling Distribution]]
+121. [[Stats - Sampling Distribution of Poisson Sample Means]]
+122. [[Stats - Sampling Methods]]
+123. [[Stats - Sampling With Replacement]]
+124. [[Stats - Sampling With Replacement & Independent Events Relationship]]
+125. [[Stats - Sampling Without Replacement]]
+126. [[Stats - Sampling Without Replacement & Dependent Events Relationship]]
+127. [[Stats - Sampling from a Poisson Distribution with SciPy]]
+128. [[Stats - Scatter Plots]]
+129. [[Stats - Simulating Binomial Distribution with scipy.stats]]
+130. [[Stats - Skewness (Left & Right Skew)]]
+131. [[Stats - Spurious Correlation]]
+132. [[Stats - Standard Normal Distribution]]
+133. [[Stats - Strength of Correlation]]
+134. [[Stats - Summary Statistic]]
+135. [[Stats - Summary Statistics]]
+136. [[Stats - Survival Function (1 - CDF)]]
+137. [[Stats - The 68-95-99.7 Rule]]
+138. [[Stats - Total Area Under a Probability Density Function is 1]]
+139. [[Stats - Treatment & Response Relationship]]
+140. [[Stats - Treatment (Explanatory Variable)]]
+141. [[Stats - t-Distribution]]
+142. [[Stats - t-Distribution vs Normal Distribution]]
